@@ -1,0 +1,91 @@
+<DOCTYPE.html>
+    <html>
+
+    <head>
+        <title>JohnsStreetChop</title>
+        <link href="jscstyles.css" type="text/css" rel="stylesheet" />
+        <style>
+            p {
+                position: relative;
+            }
+
+            label {
+                position: absolute;
+                width: 150px;
+                left: 0;
+                top: 0px;
+            }
+
+            input, select {
+                margin-left: 160px;
+            }
+
+        </style>
+    </head>
+    <header>
+        <center>
+            <h1>John's Street Chop</h1>
+            <hr/>
+        </center>
+        <nav>
+            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/home.html">Home</a>
+            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/menu.html">Menu</a>
+            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/contactus.html">Contact Us</a>
+            <hr/>
+        </nav>
+    </header>
+
+    <body>
+        <form action=# method="POST">
+            <p>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="Name" />
+            </p>
+            </br>
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" type="text" name="Email" />
+            </p>
+            </br>
+            <p>
+                <label for="phone">Phone:</label>
+                <input id="phone" type="text" name="Phone" />
+            </p>
+            </br>
+            <p>
+                <label for="Reason For Contact">Reason for Inquiry:</label>
+                <select name="Reason For Contact">
+                    <option value="Catering">Catering</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            </br>
+            <p>
+                <label for="addinfo">Additional Information:</label>
+                <input id="addinfo" type="textarea" name="Name" />
+            </p>
+            </br>
+            <p>
+                <label for="resturantq">Have you been to the resturant?:</label>
+                <input id="resturantq" type="radio" name="answer" Value="Yes" /> Yes
+                <input id="resturantq" type="radio" name="answer" Value="no" checked/> No </br>
+            </p>
+            </br>
+            <p>
+                <label for="Days">Best days to contact you?:</label>
+                <input id="Days" type="checkbox" name="weekday" value="M" /> M
+                <input id="Days" type="checkbox" name="weekday" value="T" /> T
+                <input id="Days" type="checkbox" name="weekday" value="W" /> W
+                <input id="Days" type="checkbox" name="weekday" value="Th" /> Th
+                <input id="Days" type="checkbox" name="weekday" value="F" /> F </br>
+        </form>
+    </body>
+    <footer>
+        <hr/>
+        <h5>1617 164th St., New York, New York, 11434</h5>
+        <h5>555-555-5555</h5>
+    </footer>
+
+    </html>
