@@ -3,49 +3,109 @@
 
     <head>
         <title>JohnsStreetChop</title>
-        <link href="jscstyles.css" type="text/css" rel="stylesheet" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="johnStreetChopStyles.css" type="text/css" rel="stylesheet" />
+        <noscript><p>Please enable JavaScript in your browser for better use of the website.</p></noscript>
         <style>
-            p {
-                max-width: 800px;
-
-            }
-
             body {
                 text-align: center;
                 font-family: sans-serif;
-                background-color: #3366ff;
             }
         </style>
     </head>
+
     <header>
         <h1>John's Street Chop</h1>
         <hr/>
-        <nav>
-            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/home.html">Home</a>
-            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/menu.html">Menu</a>
-            <a href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/contactus.html">Contact Us</a>
-            <hr/>
-        </nav>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/home.html">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <body>
-        <img src="http://midtownlunch.com/downtown-nyc/files/2013/10/P1040897-500x375.jpg" alt="our operations are everywhere" style="width: 800px; height: 500px"
-        />
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="container">
+                    <div class="jumbotron">
+                        <center>
+                            <h1>New Cart Opening 7/27!</h1>
+                            <p>Big news people of East side Bronx, a new cart is operating in your area!</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="johnStreetChopCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="d-block w-100" src="carouselImg1.png" alt="newLocation">
+                            <div class="carousel-caption">
+                                <h3>We're opening a new location!</h3>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="d-block w-100" src="carouselImg2.png" alt="newSeasonalItems">
+                            <div class="carousel-caption">
+                                <h3>We're rolling out our seasonal menu, with special options for this season.</h3>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="d-block w-100" src="carouselImg3.png" alt="drinkSpecial">
+                            <div class="carousel-caption">
+                                <h3>The Drink of the Month is SG Special Brew.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="http://midtownlunch.com/downtown-nyc/files/2013/10/P1040897-500x375.jpg" alt="our operations are everywhere" style="width: 800px; height: 500px"
+                />
+            </div>
+        </div>
         <br/>
-        <center>
-            <p>
-                John's Street Chops is a New York based food cart operating in the South side of Queens and planning to expand into the Bronx.
-                We cater business events, parties, and weddings as well as maintain a consistent workday of 10:00am to 3:00pm.
-                Our meat is 100% USDA choice Beef and Lamb and we offer tofu-based substitues. Our fresh veggies and dairy
-                products are stocked daily. Our carts also sell shirts, hats, armbands, and socks if you'd like to support
-                John's Street Chops! Find a cart, Chow down on some Gyro, and Rock out today!
-            </p>
-        </center>
+        <div class="row">
+            <div class="col-xs-12">
+                <center>
+                    <p>
+                        John's Street Chops is a New York based food cart operating in the South side of Queens and planning to expand into the Bronx.
+                        We cater business events, parties, and weddings as well as maintain a consistent workday of 10:00am
+                        to 3:00pm. Our meat is 100% USDA choice Beef and Lamb and we offer tofu-based substitues. Our fresh
+                        veggies and dairy products are stocked daily. Our carts also sell shirts, hats, armbands, and socks
+                        if you'd like to support John's Street Chops! Find a cart, Chow down on some Gyro, and Rock out today!
+                    </p>
+                </center>
+            </div>
+        </div>
     </body>
-    <footer>
-        <hr/>
-        <h5>1617 164th St., New York, New York, 11434</h5>
-        <h5>555-555-5555</h5>
-    </footer>
+
+    <div id="footer">
+        <footer>
+            <hr/>
+            <h5>1617 164th St., New York, New York, 11434</h5>
+            <h5>555-555-5555</h5>
+        </footer>
+    </div>
+    </div>
 
     </html>

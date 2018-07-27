@@ -1,0 +1,94 @@
+<DOCTYPE.html>
+    <html>
+
+    <head>
+        <title>JohnsStreetChop</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/JavaScript" src="validateForm.js"></script>
+        <link href="johnStreetChopStyles.css" type="text/css" rel="stylesheet" />
+        <noscript><p>Please enable JavaScript in your browser for better use of the website.</p></noscript>
+    </head>
+
+    <header>
+        <center>
+            <h1>John's Street Chop</h1>
+            <hr/>
+        </center>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/home.html">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///E:/repos/Software-Guildhw/Portfolio/Labs/Resturaunt%20V1/contactus.html">Contact Us</a>
+            </li>
+            <hr/>
+            </nav>
+    </header>
+
+    <div id="body">
+
+        <body>
+            <form name="contactForm" action=# onsubmit="return validateForm()" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Reason For Contact">Reason for Inquiry:</label>
+                    <select name="Reason For Contact">
+                        <option value="Catering">Catering</option>
+                        <option value="Private Party">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="addinfo">Additional Information:</label>
+                    <input id="addinfo" type="textarea" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="resturantq">Have you been to the resturant?:</label>
+                    <input id="resturantq" type="radio" name="answer" Value="Yes" /> Yes
+                    <input id="resturantq" type="radio" name="answer" Value="no" checked/> No
+                </div>
+                <div class="form-group">
+                    <label for="Days">Best days to contact you?:</label>
+                    <input id="Days" type="checkbox" name="weekday" value="M" /> M
+                    <input id="Days" type="checkbox" name="weekday" value="T" /> T
+                    <input id="Days" type="checkbox" name="weekday" value="W" /> W
+                    <input id="Days" type="checkbox" name="weekday" value="Th" /> Th
+                    <input id="Days" type="checkbox" name="weekday" value="F" /> F
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </body>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <hr/>
+            <h5>1617 164th St., New York, New York, 11434</h5>
+            <h5>555-555-5555</h5>
+        </footer>
+    </div>
+
+    </html>
